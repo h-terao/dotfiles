@@ -1,0 +1,7 @@
+[user]
+	name = {{ user.name }}
+	email = {{ user.email }}
+[commit]
+	template = ~/.gitmessage
+[init]
+	defaultBranch = main
