@@ -1,0 +1,65 @@
+{
+  "env": {
+    "ENABLE_TOOL_SEARCH": "true",
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
+  "permissions": {
+    "allow": [
+      "mcp__context7",
+      "mcp__playwright",
+      "Bash(playwright-cli:*)",
+      "Skill(playwright-cli:*)",
+      "Bash(gh pr:*)",
+      "Bash(gh api:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(dotenvx:*)",
+      "Bash(git:*)",
+      "Bash(make:*)",
+      "Bash(mise:*)",
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Bash(pwd:*)",
+      "Bash(echo:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(mkdir:*)",
+      "Bash(touch:*)",
+      "Bash(cp:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(whoami:*)",
+      "Bash(id:*)",
+      "Bash(date:*)",
+      "Bash(which:*)",
+      "Bash(sleep:*)",
+      "Bash(lsof:*)",
+      "Bash(python:*)",
+      "Bash(jq:*)",
+      "Bash(docker:*)",
+      "Bash(uv:*)",
+      "Bash(uvx:*)",
+      "Bash(curl:*)",
+      "Bash(npx:*)"
+    ],
+    "deny": [
+      "Bash(sudo:*)",
+      "Bash(apt:*)",
+      "Bash(ssh:*)",
+      "Bash(scp:*)"
+    ],
+    "ask": [
+      "Bash(rm:*)",
+      "Bash(rmdir:*)",
+      "Bash(mv:*)",
+      "Bash(uv add:*)",
+      "Bash(uv remove:*)",
+      "Bash(git push:*)",
+      "Bash(git rebase:*)"
+    ]
+  },
+  "language": "Japanese",
+  "alwaysThinkingEnabled": true,
+  "plansDirectory": ".claude/plans",
+  "voiceEnabled": true
+}
